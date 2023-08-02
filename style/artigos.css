@@ -1,0 +1,22 @@
+.artigoItem{
+    border-bottom: 3px solid var(--mainColor);
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.subText:nth-child(odd) .artigoItem{
+    flex-direction: row-reverse;
+}
+.subText:nth-child(odd) .artigoItem img{
+    margin-right: 0;
+    margin-left: 40px; 
+}
+
+
+.artigoItem img{
+    height: 200px;
+    margin-right: 40px;
+    outline: var(--mainColor) 6px solid; border-radius: 20px; 
+}
+

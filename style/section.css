@@ -17,6 +17,7 @@
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    text-align: center;
 }
 
 .section .centralizedText { 
@@ -65,6 +66,8 @@
     font-size: 30px;
     color: var(--mainColor);
     margin-bottom: 10px;
+    text-align: center;
+
 }
 .subText p {
     color: white;

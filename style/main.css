@@ -4,9 +4,9 @@
 }
 
 :root {
-    --bgDark: rgb(109, 106, 116);
+    --bgDark: #1e1e1e; 
 
-    --mainColor: #F69A0B;
+    --mainColor: #07B225;
 
     --mainTextColor: black;
     --secondTextColor: white;
@@ -23,10 +23,14 @@ html {
 body {
     background: var(--bgDark);
 }
-h1, p, span {
-    font-family: "Arbutus Slab";
+h1, p, span, ul, li, a {
+    font-family:sans-serif;
+    font-size: 20px;
+    color: white;
 }
-
+li{
+    margin-bottom: 18px;
+}
 
 /* Firefox */
 * {
@@ -60,4 +64,7 @@ h1, p, span {
     color: var(--secondTextColor);
     background: var(--mainColor);
 }
-.foto{width: 50%;}
+.foto{width: 30%; 
+    position: relative; left: 50%; transform: translateX(-50%);
+outline: var(--mainColor) 6px solid; border-radius: 20px; 
+margin-bottom: 20px; margin-top: 20px;}

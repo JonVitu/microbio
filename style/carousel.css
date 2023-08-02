@@ -1,9 +1,13 @@
 .carousel {
-    width: 100%;
-    height: 70%;
+    width: 70%;
+    height: 60%;
     min-width: 462px;
     overflow: hidden;
     position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0 0 20px 20px;
+    outline: 6px solid var(--mainColor);
 }
 .carousel .moveCarousel {
     cursor: pointer;
